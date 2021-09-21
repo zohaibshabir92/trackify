@@ -9,10 +9,10 @@ class LoginPage extends StatelessWidget {
       color: Colors.white,
       child: Column(
         children: [
-          Image.asset("assets/images/login.png", fit: BoxFit.cover),
           SizedBox(
             height: 20.0,
           ),
+          Image.asset("assets/images/login.png", fit: BoxFit.cover),
           Text(
             "Login",
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
@@ -28,14 +28,14 @@ class LoginPage extends StatelessWidget {
                 TextFormField(
                   decoration: InputDecoration(
                     hintText: "Enter Name",
-                    labelText: "Username",
+                    // labelText: "Username",
                   ),
                 ),
                 TextFormField(
                   obscureText: true,
                   decoration: InputDecoration(
                     hintText: "Enter Password",
-                    labelText: "Password",
+                    // labelText: "Password",
                   ),
                 ),
                 SizedBox(
